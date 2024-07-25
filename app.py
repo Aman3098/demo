@@ -1,9 +1,11 @@
+# loading necesssary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 import streamlit as st
 
+# assigning the title
 st.set_page_config(
    page_title="SuperStore Dashboard", 
    page_icon=None, 
@@ -31,7 +33,7 @@ st.markdown(css, unsafe_allow_html=True)
 
 st.write('Hello world!')
 
-st.title('Streamlit :red[Tutorial]')
+st.title('Streamlit :pink[Tutorial]')
 st.header(':blue[Introduction to Databases]')
 st.subheader("🐥💻 Web Applications")
 st.text("My First web page in a few lines")
@@ -42,6 +44,7 @@ option = st.selectbox(
 
 st.write('You selected:', option)
 
+# Loading the dataset
 df = pd.read_csv('Sample Superstore Data.csv')
 if st.button('Load data'):
   st.write(df)
