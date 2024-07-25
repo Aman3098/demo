@@ -33,8 +33,8 @@ st.markdown(css, unsafe_allow_html=True)
 
 st.write('Hello world!')
 
-st.title('Streamlit :pink[Tutorial]')
-st.header(':yellow[Introduction to Databases]')
+st.title('Streamlit :orange[Tutorial]')
+st.header(':green[Introduction to Databases]')
 st.subheader("🐥💻 Web Applications")
 st.text("My First web page in a few lines")
 
